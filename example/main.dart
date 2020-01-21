@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:size_config_package/size_config_package.dart';
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
