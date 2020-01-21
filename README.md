@@ -2,13 +2,24 @@
 
 Flutter SizeConfig Package
 
-## Getting Started
+## What is SizeConfig Package?
+SizeConfig package helps you to make your Flutter app responsive.
+Just import the package and then use it to make your app responsive.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Usage
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```
+  - use textSizeMultiplier to set Text size
+  - use imageSizeMultiplier to set Image size
+  - use heightMultiplier to set height size
+  - use weightMultiplier to set weight size
+  
+  For example:
+    If you want to set the text size to 28
+    Divide 28 to 7.9 (because it's text, so we use 'Vertical Block Size')
+    and then multiply it textSize Multiplier
+    
+    * See example file if you need more [examples](https://github.com/YRlp98/size_config_package/tree/master/example).
+```
+**Notice:** In this example I used `Google Pixel 3 XL` as the main device to config the block sizes. So the `Vertical Block Size: 7.9` and the `Horizontal Block Size: 4.1` is.
+But, you can use any devices you want.
