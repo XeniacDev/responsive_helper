@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:size_config_package/size_config_package.dart';
+import 'package:size_configure/size_configure.dart';
 
 /*
 
@@ -37,18 +37,18 @@ class AppTheme {
   static final TextStyle _title = TextStyle(
     color: Colors.black,
     // The font size I want is 20 so I divide 20 to 7.9 and then multiply it to text Size Multiplier
-    fontSize: 2.5 * SizeConfig.textSizeMultiplier, // 20
+    fontSize: 2.5 * SizeConfigure.textSizeMultiplier, // 20
   );
 
   static final TextStyle _subTitle = TextStyle(
     color: Colors.grey,
     // The font size I want is 15 so I divide 15 to 7.9 and then multiply it to text Size Multiplier
-    fontSize: 1.8 * SizeConfig.textSizeMultiplier, // 15
+    fontSize: 1.8 * SizeConfigure.textSizeMultiplier, // 15
   );
 
   static final TextStyle _button = TextStyle(
     color: Colors.blue,
     // The font size I want is 12 so I divide 12 to 7.9 and then multiply it to text Size Multiplier
-    fontSize: 1.5 * SizeConfig.textSizeMultiplier, // 12
+    fontSize: 1.5 * SizeConfigure.textSizeMultiplier, // 12
   );
 }

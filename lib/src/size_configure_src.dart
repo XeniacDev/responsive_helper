@@ -1,6 +1,6 @@
-part of size_config_package;
+part of size_configure;
 
-class SizeConfig {
+class SizeConfigure {
   static double _screenWidth;
   static double _screenHeight;
   static double _blockSizeHorizontal = 0;

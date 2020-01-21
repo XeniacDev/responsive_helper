@@ -1,5 +1,5 @@
 name: example
-description: SizeConfig Package Example
+description: SizeConfigure Package Example
 
 version: 1.0.0
 
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  size_config_package:
+  size_configure:
     path: ../
 
 dev_dependencies:
