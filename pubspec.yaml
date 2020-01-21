@@ -1,8 +1,8 @@
 name: size_config_package
 description: Flutter SizeConfig Package
 version: 0.0.1
-author:
-homepage:
+author: Yousef Roshandel <yousef.r1999@gmail.com>
+homepage: https://github.com/YRlp98/size_config_package
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
