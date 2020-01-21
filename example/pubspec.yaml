@@ -1,0 +1,21 @@
+name: example
+description: SizeConfig Package Example
+
+version: 1.0.0
+
+environment:
+sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  size_config_package:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
