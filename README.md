@@ -1,5 +1,5 @@
-# size_config_package
-SizeConfig package helps you to make your Flutter app responsive.
+# size_configure
+SizeConfigure package helps you to make your Flutter app responsive.
 Just import the package and then use it to make your app responsive.
 
 ## Usage
