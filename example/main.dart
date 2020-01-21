@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
           builder: (context, orientation) {
             SizeConfigure().int(constraints, orientation);
             return MaterialApp(
-              title: 'SizeConfig Package Example',
+              title: 'SizeConfigure Package Example',
             );
           },
         );
