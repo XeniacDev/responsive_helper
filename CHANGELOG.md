@@ -1,3 +1,7 @@
+## [0.0.3]
+
+* Some small change in functions
+
 ## [0.0.2]
 
 * Update LICENSE
