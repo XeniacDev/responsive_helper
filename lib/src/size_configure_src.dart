@@ -11,7 +11,7 @@ class SizeConfigure {
   static double heightMultiplier;
   static double weightMultiplier;
 
-  void int(BoxConstraints constraints, Orientation orientation) {
+  void init(BoxConstraints constraints, Orientation orientation) {
     if (orientation == Orientation.portrait) {
       _screenWidth = constraints.maxWidth;
       _screenHeight = constraints.maxHeight;

@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       builder: (context, constraints) {
         return OrientationBuilder(
           builder: (context, orientation) {
-            SizeConfigure().int(constraints, orientation);
+            SizeConfigure().init(constraints, orientation);
             return MaterialApp(
               title: 'SizeConfigure Package Example',
             );
