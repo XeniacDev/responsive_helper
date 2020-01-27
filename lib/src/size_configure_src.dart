@@ -9,7 +9,7 @@ class SizeConfigure {
   static double textSizeMultiplier;
   static double imageSizeMultiplier;
   static double heightMultiplier;
-  static double weightMultiplier;
+  static double widthMultiplier;
 
   void init(BoxConstraints constraints, Orientation orientation) {
     if (orientation == Orientation.portrait) {
@@ -25,7 +25,7 @@ class SizeConfigure {
     textSizeMultiplier = _blockSizeVertical;
     imageSizeMultiplier = _blockSizeHorizontal;
     heightMultiplier = _blockSizeVertical;
-    weightMultiplier = _blockSizeVertical;
+    widthMultiplier = _blockSizeVertical;
 
     print('Vertical Block Size: ' + _blockSizeVertical.toString());
     print('Horizontal Block Size: ' + _blockSizeHorizontal.toString());
