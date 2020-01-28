@@ -25,7 +25,7 @@ class SizeConfigure {
     textSizeMultiplier = _blockSizeVertical;
     imageSizeMultiplier = _blockSizeHorizontal;
     heightMultiplier = _blockSizeVertical;
-    widthMultiplier = _blockSizeVertical;
+    widthMultiplier = _blockSizeHorizontal;
 
     print('Vertical Block Size: ' + _blockSizeVertical.toString());
     print('Horizontal Block Size: ' + _blockSizeHorizontal.toString());

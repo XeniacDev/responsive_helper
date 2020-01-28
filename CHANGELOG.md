@@ -1,3 +1,7 @@
+## [0.0.4]
+
+* Add widthMultiplier
+
 ## [0.0.3]
 
 * Some small change in functions

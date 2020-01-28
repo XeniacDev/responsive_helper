@@ -5,16 +5,14 @@ import 'package:size_configure/size_configure.dart';
 
   Notice:
   I'm using Pixel 3 XL as the main device to config the block sizes:
-  Vertical Block Size: 7.977142857142857
-  Horizontal Block Size: 4.114285714285715
-
+  - Vertical Block Size: 7.9 (and 8.4 if it's full-screen)
+  - Horizontal Block Size: 4.1
   ---------------------------------------
-
-  How to use?
-  - use textSizeMultiplier to set Text size
-  - use imageSizeMultiplier to set Image size
+  Usage:
+  - use textSizeMultiplier to set the Text size
+  - use imageSizeMultiplier to set the Image and Icon size
   - use heightMultiplier to set height size
-  - use weightMultiplier to set weight size
+  - use widthMultiplier to set weight size
 
   Example:
   If you want to set the text size to 28
@@ -51,4 +49,16 @@ class AppTheme {
     // The font size I want is 12 so I divide 12 to 7.9 and then multiply it to text Size Multiplier
     fontSize: 1.5 * SizeConfigure.textSizeMultiplier, // 12
   );
+
 }
+
+// More Example
+class MoreExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Container(
+      child: null,
+    );
+  }
+}
+
