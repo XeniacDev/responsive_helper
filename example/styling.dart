@@ -129,7 +129,7 @@ class TestScreen extends StatelessWidget {
                   left: 4.8 * SizeConfigure.widthMultiplier // 20
                   ), // 20
               child: new Text(
-                'This is an simple example to show how to SizeConfigure package works',
+                'This is a simple example to show how to SizeConfigure package works',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Colors.white,
