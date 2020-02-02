@@ -17,7 +17,11 @@ import 'package:size_configure/size_configure.dart';
   Example:
   If you want to set the text size to 28
   Divide 28 to 7.9 (because it's text, so we use 'Vertical Block Size')
-  and then multiply it textSize Multiplier
+  and then multiply it to textSize Multiplier
+  Or
+  If you want to set the width to 200
+  Divide 200 to 4.1 (because it's horizontal, so we use 'Horizontal Block Size')
+  and then multiply it to imageSizeMultiplier or widthMultiplier
 
 */
 
@@ -49,16 +53,91 @@ class AppTheme {
     // The font size I want is 12 so I divide 12 to 7.9 and then multiply it to text Size Multiplier
     fontSize: 1.5 * SizeConfigure.textSizeMultiplier, // 12
   );
-
 }
 
-// More Example
-class MoreExample extends StatelessWidget {
+// =============================================================================
+// More Example ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+// =============================================================================
+
+class TestScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new Container(
-      child: null,
+    return new Scaffold(
+      backgroundColor: Colors.blue,
+      appBar: new AppBar(
+          centerTitle: true,
+          title: Text(
+            'Example',
+            style: TextStyle(
+                fontSize: 2.5 * SizeConfigure.textSizeMultiplier), // 20
+          )),
+      body: new Stack(
+        children: <Widget>[
+          new Container(
+            padding: EdgeInsets.all(
+                // 15
+                3.6 * SizeConfigure.imageSizeMultiplier), // all: 15
+            child: new Row(
+              children: <Widget>[
+                new Image.asset(
+                  'assets/images/xeniac.png',
+                  // width: 200,
+                  // height: 200,
+
+                  /*
+                  Here I want my image size to be 200*200
+                  so first, I divide 200 to 7.9
+                  and then I multiple results (48.7) to SizeConfigure.textSizeMultiplier
+                  */
+
+                  width: 48.7 * SizeConfigure.imageSizeMultiplier, // 200
+                  height: 48.7 * SizeConfigure.imageSizeMultiplier, // 200
+                  fit: BoxFit.contain,
+                ),
+                new Image.asset(
+                  'assets/images/xeniac.png',
+                  // width: 170,
+                  // height: 170,
+                  width: 41.4 * SizeConfigure.imageSizeMultiplier, // 170
+                  height: 41.4 * SizeConfigure.imageSizeMultiplier, // 170
+                  fit: BoxFit.contain,
+                ),
+              ],
+            ),
+          ),
+          new Padding(
+              padding: EdgeInsets.symmetric(horizontal: 120, vertical: 180),
+              child: new Column(
+                children: <Widget>[
+                  new Image.asset(
+                    'assets/images/xeniac.png',
+                    // width: 180,
+                    // height: 180,
+                    width: 43.9 * SizeConfigure.imageSizeMultiplier, // 180
+                    height: 43.9 * SizeConfigure.imageSizeMultiplier, // 180
+                    fit: BoxFit.contain,
+                  ),
+                ],
+              )),
+          new Padding(
+              padding: EdgeInsets.only(
+                  // top: 450,
+                  // right: 20,
+                  // left: 20
+                  top: 56.9 * SizeConfigure.heightMultiplier, // 450
+                  right: 4.8 * SizeConfigure.widthMultiplier, // 20
+                  left: 4.8 * SizeConfigure.widthMultiplier // 20
+                  ), // 20
+              child: new Text(
+                'This is an simple example to show how to SizeConfigure package works',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 1.8 * SizeConfigure.textSizeMultiplier // 15),
+                    ),
+              )),
+        ],
+      ),
     );
   }
 }
-
