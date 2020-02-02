@@ -1,4 +1,8 @@
-## [0.1.1]
+## [0.1.3]
+
+* Update Example
+
+## [0.1.2]
 
 * Fix the widthMultiplier issue
 
