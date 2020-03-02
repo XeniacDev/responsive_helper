@@ -1,9 +1,9 @@
-library size_configure;
+library responsive_helper;
 
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
-part 'src/size_configure_src.dart';
+part 'src/responsive_helper_src.dart';
 
 /*
  * Created by: Yousef Roshandel

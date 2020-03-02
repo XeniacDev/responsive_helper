@@ -1,3 +1,7 @@
+## [1.0.0] - Stable release
+
+* Package name renamed to ResponsiveHelper
+
 ## [0.1.4]
 
 * Update Example

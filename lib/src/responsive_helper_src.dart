@@ -1,6 +1,6 @@
-part of size_configure;
+part of responsive_helper;
 
-class SizeConfigure {
+class ResponsiveHelper {
   static double _screenWidth;
   static double _screenHeight;
   static double _blockSizeHorizontal = 0;

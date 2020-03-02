@@ -1,5 +1,5 @@
 name: example
-description: Flutter SizeConfigure Package Example
+description: Flutter ResponsiveHelper Package Example
 
 version: 1.0.0
 
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  size_configure:
+  responsive_helper:
     path: ../
 
 dev_dependencies:
