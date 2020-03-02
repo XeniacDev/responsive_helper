@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
     Divide 200 to 4.1 (because it's horizontal, so we use 'Horizontal Block Size')
     and then multiply it to imageSizeMultiplier or widthMultiplier
 ```
-if you need more examples, See [setSizeExample.dart](https://github.com/YRlp98/responsive_helper/tree/master/example).
+if you need more examples, See [setSizeExample.dart](https://github.com/YRlp98/responsive_helper/blob/master/example/main.dart).
 
 
 **Notice:** In this example I used `Google Pixel 3 XL` as the main device to config the block sizes.So the `Vertical Block Size: 7.9` and the `Horizontal Block Size: 4.1` is.
